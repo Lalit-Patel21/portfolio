@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 5s ease infinite;
+}
+
+/* Card glow on hover */
+.card-glow {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.card-glow:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(128, 0, 255, 0.4), 0 0 20px rgba(128, 0, 255, 0.3);
+}
+
+/* Text glow for readability */
+.text-glow {
+  text-shadow: 0 0 8px rgba(128, 0, 255, 0.8), 0 0 12px rgba(75, 0, 130, 0.6);
+}
