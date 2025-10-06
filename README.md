@@ -238,6 +238,6 @@ If you encounter any issues or have questions:
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Lalit Patel**
 
 Happy coding! 🚀
